@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    trie.cpp \
+    trienode.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    trie.h \
+    trienode.h
 
 FORMS    += mainwindow.ui
