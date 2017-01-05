@@ -11,6 +11,7 @@
 #include <QTextStream>
 #include <QListWidget>
 #include <string>
+using namespace std;
 namespace Ui {
 class MainWindow;
 }
